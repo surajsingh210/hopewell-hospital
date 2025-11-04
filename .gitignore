@@ -1,0 +1,58 @@
+# Node.js dependencies
+App/node_modules/
+Backend/node_modules/
+Frontend/node_modules/
+
+# Environment variables
+App/.env
+Backend/.env
+Frontend/.env
+
+# Build and cache
+App/dist/
+Backend/dist/
+Frontend/dist/
+App/.turbo/
+Backend/.turbo/
+Frontend/.turbo/
+
+# Logs
+App/logs/
+Backend/logs/
+Frontend/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+App/tmp/
+Backend/tmp/
+Frontend/tmp/
+App/.DS_Store
+Backend/.DS_Store
+Frontend/.DS_Store
+Thumbs.db
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Multer Uploads (if storing files locally)
+Backend/uploads/
+
+# Expo and React Native (if using in App)
+App/.expo/
+App/.expo-shared/
+App/.easbuild/
+
+# Database and sensitive files
+Backend/database.sqlite
+Backend/database.sqlite3
+Backend/db.sqlite
+Backend/db.sqlite3
+Backend/dump.rdb
+Backend/.cache/
+Backend/.config/
